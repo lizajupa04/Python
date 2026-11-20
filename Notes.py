@@ -68,3 +68,37 @@ print(parrafo3[125] + parrafo3[94] + parrafo3[35] + parrafo3[107] + parrafo3[20]
 # ----------------------------------
 # -- Numeros -- #
 # ----------------------------------
+
+# -- Numero Int -- #
+variable_17 = 10 # Numero int
+
+# Podemos transformar el string a numero
+variable_18 = "10"
+variable_19 = int(variable_18)
+print(variable_19)
+
+# Podemos escribir los numero mas legibles. Como cuando ponemos puntos
+variable_20 = 1000000 # aqui el numero se lee como 1 millon. 
+variable_21 = 1_000_000 # En vez de puntos, porque no los acepta python, ponemos _
+
+# -- Numeros float -- #
+# Los numero decimales
+
+variable_22 = 10.5 # Usamos con puntos. Con coma no, porque puede definir otra estructura.
+variable_23 = "10.5" # Estaria en String
+print(float(variable_23)) # Convertimos el String en float
+
+# -- Numeros complejos -- #
+# Aquellos que tienen la parte reall y parte imaginaria (j)
+
+variable_24 = 1 + 2j
+print(variable_24.real)
+print(variable_24.imag)
+
+
+# ----------------------------------
+# -- FUNCIONES-- #
+# ----------------------------------# 
+variable_25 = "Hola mundo"
+variable_26 = len(variable_25) # Len es una funcion ya definida en Python.
+print(variable_26)
